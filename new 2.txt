@@ -1,0 +1,6 @@
+Software Engineering Keys
+
+Efficency/Optimization (Speed and Utilization of Resources)
+Modularity (Upgradable for the future)
+Easy to Read (Team Oriented)
+

@@ -1,0 +1,15 @@
+Swift:		let number = 42          // Applies inferencing
+Java:		var number = 42;		 // Local Variable Type Reference
+C++:		auto number = 42;		 // Auto is used to type the variable
+
+
+
+Swift:		let numbers = [1, 2, 3]
+			let cubedNumbers = numbers.map { $0 * $0 * $0 }
+
+Java:		List<Integer> numbers = Arrays.asList(1, 2, 3);
+			numbers.stream().map(n -> n * n * n).collect(Collectors.toList());
+
+C++:		std::vector<int> numbers = {1, 2, 3};
+			std::transform(numbers.begin(), numbers.end(), numbers.begin(),
+					[](int n) { return n * n * n; });
